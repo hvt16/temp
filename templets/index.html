@@ -20,7 +20,7 @@
 <strong style="font-size:20px;" >{{ dis_name }}</strong>
 <img src="https://i.marketsmojo.com/dots-bulish.png" height="40" width="40">
 {% if pred_feedback == 'Buy' %}
-<!-- <strong style="color: green; font-size:20px" >{{ pred_feedback }}</strong> --!>
+<!-- <strong style="color: green; font-size:20px" >{{ pred_feedback }}</strong> -->
 <img src="https://i.marketsmojo.com/dots-green.png" height="40" width="40">
 {% elif pred_feedback == 'Sell' %}
 <!-- <strong style="color: red; font-size:20px" >{{ pred_feedback }}</strong> -->
@@ -32,7 +32,7 @@
 
 
 {% if sma_feedback == 'Buy' %}
-<!-- <strong style="color: green; font-size:20px" >{{ sma_feedback }}</strong> --!>
+<!-- <strong style="color: green; font-size:20px" >{{ sma_feedback }}</strong> -->
 <img src="https://i.marketsmojo.com/dots-green.png" height="40" width="40">
 {% elif sma_feedback == 'Sell' %}
 <!-- <strong style="color: red; font-size:20px" >{{ sma_feedback }}</strong> -->
@@ -116,7 +116,7 @@
 <div class="tradingview-widget-container">
   <div class="tradingview-widget-container__widget"></div>
   <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
-  {
+  var widgetOptions ={
   "symbols": [
     {
       "proName": "FOREXCOM:SPXUSD",
@@ -149,6 +149,7 @@
   "displayMode": "adaptive",
   "locale": "in"
 }
+new TradingView.widget(widgetOptions);
   </script>
 </div>
 <!-- TradingView Widget END -->
@@ -167,7 +168,7 @@
 <div class="tradingview-widget-container">
   <div class="tradingview-widget-container__widget"></div>
   <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
-  {
+  var widgetOptions ={
   "symbols": [
     {
       "proName": "FOREXCOM:SPXUSD",
@@ -200,6 +201,7 @@
   "displayMode": "adaptive",
   "locale": "in"
 }
+new TradingView.widget(widgetOptions);
   </script>
 </div>
 <!-- TradingView Widget END -->
@@ -225,7 +227,7 @@ The predicated AVG for Next Day {{ca}}
 <div class="tradingview-widget-container">
   <div class="tradingview-widget-container__widget"></div>
   <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
-  {
+  var widgetOptions ={
   "symbols": [
     {
       "proName": "FOREXCOM:SPXUSD",
@@ -258,6 +260,7 @@ The predicated AVG for Next Day {{ca}}
   "displayMode": "adaptive",
   "locale": "in"
 }
+new TradingView.widget(widgetOptions);
   </script>
 </div>
 <!-- TradingView Widget END -->
@@ -281,7 +284,7 @@ The predicated AVG for Next Day {{ca}}
 <div class="tradingview-widget-container">
   <div class="tradingview-widget-container__widget"></div>
   <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
-  {
+  var widgetOptions ={
   "symbols": [
     {
       "proName": "FOREXCOM:SPXUSD",
@@ -314,6 +317,7 @@ The predicated AVG for Next Day {{ca}}
   "displayMode": "adaptive",
   "locale": "in"
 }
+new TradingView.widget(widgetOptions);
   </script>
 </div>
 <!-- TradingView Widget END -->
@@ -338,7 +342,7 @@ The predicated AVG for Next Day {{ca}}
 <div class="tradingview-widget-container">
   <div class="tradingview-widget-container__widget"></div>
   <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
-  {
+  var widgetOptions ={
   "symbols": [
     {
       "proName": "FOREXCOM:SPXUSD",
@@ -371,6 +375,7 @@ The predicated AVG for Next Day {{ca}}
   "displayMode": "adaptive",
   "locale": "in"
 }
+new TradingView.widget(widgetOptions);
   </script>
 </div>
 <!-- TradingView Widget END -->
@@ -433,7 +438,7 @@ margin-right: 15px;
 <br>
 <br>
 
-<script>
+<!-- <script> -->
 <br>
   <div class="loader-wrapper">
     <span class="loader"><span class="loader-inner"></span></span>

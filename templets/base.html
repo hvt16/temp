@@ -29,7 +29,7 @@
 <div class="tradingview-widget-container">
   <div class="tradingview-widget-container__widget"></div>
   <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
-  {
+  var widgetOptions ={
   "symbols": [
     {
       "proName": "FOREXCOM:SPXUSD",
@@ -65,6 +65,7 @@
   "displayMode": "compact",
   "locale": "in"
 }
+new TradingView.widget(widgetOptions);
   </script>
 </div>
 <!-- TradingView Widget END -->

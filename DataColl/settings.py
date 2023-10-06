@@ -12,7 +12,7 @@ SECRET_KEY = '0$jit*h_az)(vgz_4%5#+($8#(5n=1lkv05yc_vo+7r+no5^!e'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 # Application definition
 
@@ -102,8 +102,6 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-STATICFILES_DIRS = [
-    'E:\django_projects\StockMarketPrediction\static',
-    ]
+STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
 
 DEFAULT_AUTO_FIELD = 'django.db.models.AutoField'
