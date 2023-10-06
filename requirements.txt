@@ -90,7 +90,7 @@ pyasn1
 pyasn1-modules
 Pygments
 pyparsing
-pypiwin32==223
+pywin32
 pyrsistent
 python-dateutil
 pytz
