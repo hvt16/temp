@@ -111,4 +111,4 @@ STATIC_ROOT =os.path.join(BASE_DIR, 'staticfiles')
 
 DEFAULT_AUTO_FIELD = 'django.db.models.AutoField'
 
-CSRF_TRUSTED_ORIGINS = ['*']
+CSRF_TRUSTED_ORIGINS = ['https://web-production-d9ba.up.railway.app']
